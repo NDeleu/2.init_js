@@ -1,5 +1,4 @@
 $(function() {
-    // Fonction pour afficher un article
     function displayArticle(content) {
         const newArticle = $("<article>").addClass("mt-4 p-3 border rounded").html(content);
         const existingArticle = $("main article");
@@ -35,7 +34,6 @@ $(function() {
         }
     }
 
-    // À la fin de votre fonction asynchrone qui charge les personnages
     (async function() {
         const personnages = await fetchPersonnages();
         if (personnages) {
@@ -67,7 +65,6 @@ $(function() {
             );
 
             if (personnageTrouve) {
-                // Ajoutez un attribut href aux images miniatures
                 $(".personnage-image.miniature").each(function() {
                     const src = $(this).attr("src");
                     $(this).parent().attr("href", src);
@@ -97,7 +94,7 @@ $(function() {
                     type: "image"
                 });
 
-                updateCurrentTime(); // Mettez à jour l'heure ici
+                updateCurrentTime();
 
             } else {
                 displayArticle('<p class="text-danger animate__animated animate__shakeX">Personnage Inconnu</p>');
@@ -124,7 +121,6 @@ $(function() {
                 </tr>
             `).join('');
 
-            // Ajoutez un attribut href aux images miniatures
             $(".personnage-image.miniature").each(function() {
                 const src = $(this).attr("src");
                 $(this).parent().attr("href", src);
@@ -160,7 +156,7 @@ $(function() {
                 type: "image"
             });
 
-            updateCurrentTime(); // Mettez à jour l'heure ici
+            updateCurrentTime();
         }
     });
 
