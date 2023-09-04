@@ -1,0 +1,8 @@
+# Dossiers à ignorer
+node_modules/
+.vscode/
+
+# Fichiers à ignorer
+package-lock.json
+.DS_Store
+.env

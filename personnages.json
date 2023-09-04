@@ -1,0 +1,22 @@
+{
+  "personnages": [
+    {
+      "nom": "Alice",
+      "classe": "Guerrier",
+      "niveau": 5,
+      "image": "images/alice01.jpg"
+    },
+    {
+      "nom": "Bob",
+      "classe": "Mage",
+      "niveau": 7,
+      "image": "images/bob01.jpg"
+    },
+    {
+      "nom": "Charlie",
+      "classe": "Archer",
+      "niveau": 3,
+      "image": "images/charlie01.jpg"
+    }
+  ]
+}

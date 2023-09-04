@@ -1,0 +1,27 @@
+.select2-container--default .select2-selection--single {
+    border: 0;
+    background-color: transparent;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    display: none;
+}
+
+.select2-container--default .select2-dropdown {
+    width: auto;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    display: none;
+}
+
+.miniature {
+    max-width: 200px;
+    max-height: 200px;
+}
